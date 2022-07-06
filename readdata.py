@@ -1,17 +1,12 @@
 
 # -*- coding: utf-8 -*-
 
-import sys
+
 import time
 import serial
-import modbus_tk
+
 import modbus_tk.defines as cst
 from modbus_tk import modbus_rtu
-import struct
-from _ast import If
-import codecs
-import statistics
-
 
 
 def read_IAQ(PORT,ID):
