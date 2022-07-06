@@ -27,8 +27,8 @@ def read_IAQ(PORT,ID):
         IAQ_Value[0] =  IAQ[0]
         IAQ_Value[1] =  IAQ[1]
         IAQ_Value[2] =  IAQ[2]
-        IAQ_Value[3] =  IAQ[3]
-        IAQ_Value[4] =  IAQ[4]
+        IAQ_Value[3] =  IAQ[3] * 0.01
+        IAQ_Value[4] =  IAQ[4] * 0.01
         
         master.close()
         time.sleep(0.5)
