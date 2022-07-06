@@ -18,7 +18,7 @@ def job():
     client.publish("v1/devices/me/telemetry", json.dumps(payload))
      
   
-schedule.every(10).seconds.do(job)  
+schedule.every(5).minutes.do(job)  
   
 while True:  
     try:
