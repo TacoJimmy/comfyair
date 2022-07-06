@@ -29,7 +29,9 @@ class Config(object):
     ]
 
 def read_IAQ(a, b):
-    payload = readdata.read_IAQ('/dev/ttyS1',1)
+    PORT = '/dev/ttyS1'
+    ID = 1
+    payload = readdata.read_IAQ(PORT,ID)
     print (payload)
     
         
