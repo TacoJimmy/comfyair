@@ -22,7 +22,7 @@ class Config(object):
             'func': '__main__:read_IAQ',
             'args': (4, 5),
             'trigger': 'interval',
-            'seconds': 5
+            'minutes': 1
         },
 
 
